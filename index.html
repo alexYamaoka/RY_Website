@@ -3,93 +3,84 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width", initial-scale=1.0 >
-    <title> RY Photos </title>
+    <title> RY by Alex Yamaoka </title>
     <link rel="stylesheet" href="styleIndex.css">
+    <link rel="stylesheet" href="navigationBarStyle.css">
     <link href="lightbox2-dev/dist/css/lightbox.min.css" rel="stylesheet" />
     <script src="lightbox2-dev/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/c94576c41a.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $(".menu-btn .fa-times").hide();
+
+        $(".menu-btn .fa-bars").click(function(){
+          $(this).hide();
+          $(".menu-btn .fa-times").show();
+          $(".mobile ul").addClass("active");
+        });
+
+        $(".menu-btn .fa-times").click(function(){
+          $(this).hide();
+          $(".menu-btn .fa-bars").show();
+          $(".mobile ul").removeClass("active");
+        });
+      });
+    </script>
 
   </head>
   <body>
 
-    <nav>
-      <ul>
-        <li><a href = "#"> Home </a></li>
-        <li><a href = "#"> News </a></li>
-        <li><a href = "#"> Download </a></li>
-        <li><a href = "#"> Gallery </a></li>
-        <li><a href = "#"> Contact </a></li>
-      </ul>
-    </nav>
+    <div class="slider">
+      <figure>
+        <img src="photos/RY1.jpg">
+        <img src="photos/RY6.jpg">
+        <img src="photos/RY84.jpg">
+        <img src="photos/RY58.jpg">
+        <img src="photos/RY1.jpg">
+      </figure>
+    </div>
 
-    <div class="picture-grid">
 
-      <div class="grid-box">
-        <a href="photos/RY1.jpg" data-lightbox="myGallery" data-title="Joshua Tree 2017"><img src="photos/RY1-small.jpg"></a>
-      </div>
 
-      <div class="grid-box">
-        <a href="photos/RY2.jpg" data-lightbox="myGallery" data-title="Asakusa Japan 2017"><img src="photos/RY2-small.jpg"></a>
-      </div>
+    <div class="container">
+      <nav class="desktop">
+        <ul>
+          <li class="active"> <a href="index.html">Home</a></li>
+          <li> <a href="#">About</a></li>
+          <li> <a href="gallery.html">RY Gallery</a></li>
+          <li> <a href="#">Contact</a></li>
+        </ul>
+      </nav>
 
-      <div class="grid-box">
-        <a href="photos/RY4.jpg" data-lightbox="myGallery" data-title="Asakusa Japan 2017"><img src="photos/RY4-small.jpg"></a>
-      </div>
+      <nav class="mobile">
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+          <i class="fas fa-times"></i>
+        </div>
+        <ul>
+          <li class="active"> <a href="index.html">Home</a></li>
+          <li> <a href="#">About</a></li>
+          <li> <a href="gallery.html">RY Gallery</a></li>
+          <li> <a href="#">Contact</a></li>
+        </ul>
+      </nav>
 
-      <div class="grid-box">
-        <a href="photos/RY17.jpg" data-lightbox="myGallery" data-title="Hakatajima Japan 2017"><img src="photos/RY17-small.jpg"></a>
-      </div>
-
-      <div class="grid-box">
-        <a href="photos/RY36.jpg" data-lightbox="myGallery" data-title="Kyoto Japan 2014"><img src="photos/RY36-small.jpg"></a>
-      </div>
-
-      <div class="grid-box">
-        <a href="photos/RY37.jpg" data-lightbox="myGallery" data-title="Tokyo Station Japan10/12/2017"><img src="photos/RY37-small.jpg"></a>
-      </div>
-
-      <div class="grid-box">
-        <a href="photos/RY3.jpg" data-lightbox="myGallery" data-title="Odaiba Japan 2017"><img src="photos/RY3-small.jpg"></a>
-      </div>
-
-      <div class="grid-box">
-        <a href="photos/RY6.jpg" data-lightbox="myGallery" data-title="Rainbow Bridge Odaiba Japan 2017"><img src="photos/RY6-small.jpg"></a>
-      </div>
-
-      <div class="grid-box">
-        <a href="photos/RY15.jpg" data-lightbox="myGallery" data-title="San Diego 2017"><img src="photos/RY15-small.jpg"></a>
-      </div>
-
-      <div class="grid-box">
-        <a href="photos/RY11.jpg" data-lightbox="myGallery" data-title="San Fransisco 2017"><img src="photos/RY11-small.jpg"></a>
-      </div>
-
-      <div class="grid-box">
-        <a href="photos/RY25.jpg" data-lightbox="myGallery" data-title="San Fransisco 2017"><img src="photos/RY25-small.jpg"></a>
-      </div>
-
-      <div class="grid-box">
-        <a href="photos/RY28.jpg" data-lightbox="myGallery" data-title="San Fransisco 2017"><img src="photos/RY28-small.jpg"></a>
-      </div>
-
-      <div class="grid-box">
-        <a href="photos/RY30.jpg" data-lightbox="myGallery" data-title="San Fransisco 2017"><img src="photos/RY30-small.jpg"></a>
-      </div>
-
-      <div class="grid-box">
-        <a href="photos/RY31.jpg" data-lightbox="myGallery" data-title="San Fransisco 2017"><img src="photos/RY31-small.jpg"></a>
-      </div>
-
-      <div class="grid-box">
-        <a href="photos/RY32.jpg" data-lightbox="myGallery" data-title="San Fransisco 2017"><img src="photos/RY32-small.jpg"></a>
-      </div>
-
-      <div class="grid-box">
-        <a href="photos/RY51.jpg" data-lightbox="myGallery" data-title="Scripps Pier San Diego 2018"><img src="photos/RY51-small.jpg"></a>
-      </div>
-
+      <!-- <div class="header"></div> -->
 
     </div>
+
+
+
+
+
+
+
+
 
   </body>
 </html>

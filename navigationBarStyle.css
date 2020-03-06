@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+.container nav.desktop,
+.container nav.mobile{
+  width: 100%;
+  height: 60px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  position: fixed;
+  background: #364a4b;
+  top: 0;
+  left: 0;
+
+}
+
+nav.desktop ul{
+  list-style: none;
+  width: 75%;
+  height: 60%;
+  margin: 0 auto;
+}
+
+
+nav.desktop ul li{
+  width: 20%;
+  float: left;
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+
+nav ul li:hover{
+  background: #a3ada5;
+}
+
+nav ul li.active{
+  background: #a3ada5;
+}
+
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+nav.mobile,
+.menu-btn{
+  display: none;
+}
+
+.header{
+  background: url(photos/RY1.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  margin-top: 60px;
+  z-index: -1;
+}
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+  nav.desktop{
+    display: none;
+  }
+
+  nav.mobile,
+  .menu-btn{
+    display: block;
+  }
+
+  .menu-btn{
+    position: relative;
+  }
+
+  .menu-btn .fa-bars,
+  .menu-btn .fa-times{
+    position: fixed;
+    right: 25px;
+    top: 15px;
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .mobile ul{
+    margin-top: 60px;
+    background: #364a4b;
+    display: none;
+  }
+
+  .mobile li{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+  }
+
+  .mobile ul.active{
+    display: block;
+  }
+}
