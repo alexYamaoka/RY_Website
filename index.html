@@ -36,9 +36,32 @@
   <body>
 
 
+
+    <script type="text/javascript">
+      var slides = ["photos/RY6.jpg", "photos/RY51.jpg", "photos/RY88.jpg", "photos/RY81.jpg", "photos/RY71.jpg"];
+
+      var i = 0;
+
+      function slideshow(){
+        document.getElementById("images").src = slides[i];
+        i++;
+
+        if (i > 4) {
+          i = 0;
+        }
+      }
+
+      setInterval(slideshow, 3000);
+    </script>
+
+
+
     <div class="slider">
-      <div class="load">
-      </div>
+
+      <img src="photos/RY71.jpg"  id="images" class="images">
+
+
+
 
       <div class="content">
         <div class="principal">
@@ -50,6 +73,7 @@
       </div>
 
     </div>
+
 
 
 
