@@ -98,7 +98,7 @@ body{
   }
 
   20%{
-    background-image: url(photos/RY51.jpg);
+    background-image: url(photos/RY71.jpg);
   }
 
   20.01%{
@@ -106,7 +106,7 @@ body{
   }
 
   40%{
-    background-image: url(photos/RY6.jpg);
+    background-image: url(photos/RY51.jpg);
   }
 
   40.01%{
@@ -114,7 +114,7 @@ body{
   }
 
   60%{
-    background-image: url(photos/RY88.jpg);
+    background-image: url(photos/RY6.jpg);
   }
 
   60.01%{
@@ -122,7 +122,7 @@ body{
   }
 
   80%{
-    background-image: url(photos/RY81.jpg);
+    background-image: url(photos/RY88.jpg);
   }
 
   80.01%{
@@ -130,7 +130,7 @@ body{
   }
 
   100%{
-    background-image: url(photos/RY1.jpg);
+    background-image: url(photos/RY81.jpg);
   }
 
 }
