@@ -74,16 +74,15 @@ nav.mobile p{
   width: 90%;
   float: left;
   text-align: center;
-  margin-left: 40px;
   line-height: 60px;
   transition: all 0.5s ease;
   color: #fff;
-  font-size: 30px;
+  font-size: 40px;
   font-family: serif;
 }
 
 nav.desktop p{
-  margin-left: 30px;
+  margin-left: 40px;
   margin-right: 50px;
   float: left;
   text-align: center;
