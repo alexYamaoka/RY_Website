@@ -81,14 +81,14 @@ body{
 
 .principal{
   left: 50%;
-  top: 55%;
+  top: 60%;
   transform: translate(-50%, -50%);
   position: absolute;
   letter-spacing: 5px;
   text-align: center;
 }
 
-.principal h1{
-  font-size: 25px;
+.principal p{
+  font-size: 35px;
   margin-bottom: 20px;
 }
