@@ -25,14 +25,14 @@ body{
 
 nav.desktop ul{
   list-style: none;
-  width: 75%;
+  width: 90%;
   height: 60%;
   margin: 0 auto;
 }
 
 
 nav.desktop ul li{
-  width: 20%;
+  width: 15%;
   float: left;
   text-align: center;
   line-height: 60px;
