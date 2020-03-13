@@ -1,5 +1,5 @@
 body{
-  font-family: sans-serif;
+  font-family: Garamond, sans-serif;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -90,4 +90,5 @@ body{
 .principal p{
   font-size: 35px;
   margin-bottom: 20px;
+  font-family: Garamond;
 }
