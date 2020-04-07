@@ -1,0 +1,3 @@
+photos/
+icons/
+lightbox2-dev/
