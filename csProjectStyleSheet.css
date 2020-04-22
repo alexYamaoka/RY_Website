@@ -1,6 +1,6 @@
 body{
   background-color: #A7FFEB;
-  line-height: 24px;
+
 }
 
 .appName{
@@ -9,6 +9,8 @@ body{
   margin-left: 50px;
   position: relative;
   float: left;
+  font-family: Garamond;
+  line-height: 24px;
 }
 
 .appName #screenShot{
