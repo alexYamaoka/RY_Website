@@ -49,6 +49,16 @@ body{
   margin-right: 50px;
 }
 
+.aboutMe .links #icon{
+  width: 5%;
+  height: 5%;
+  margin-right: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
 .aboutMe .course{
   padding: 10px;
   margin-right: 50px;
