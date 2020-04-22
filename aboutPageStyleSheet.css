@@ -1,9 +1,14 @@
+body{
+  background-color: #4DB6AC;
+}
+
+
 .pic{
   background-color: #4DB6AC;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 60px;
-  min-width: 115%;
+  width: 100%;
 }
 
 .pic #profilePic{
@@ -12,6 +17,7 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
+  margin: auto;
 }
 
 .aboutMe{
