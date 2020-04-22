@@ -1,2 +1,2 @@
 # RY_Website
-Photo gallery website for RY photos
+Personal portfolio website for computer science projects and photography.
