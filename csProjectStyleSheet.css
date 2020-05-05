@@ -23,11 +23,12 @@ body{
 }
 
 .appName #earth_gif{
-  width: 60%;
+  width: 80%;
   height: 10%;
   margin-top: 30px;
-  margin-right: 30px;
   margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .appName .description{
