@@ -31,6 +31,17 @@ body{
   margin-right: auto;
 }
 
+.appName #ttt{
+  width: 50%;
+  height: 10%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 .appName .description{
   padding: 20px;
   margin-left: 30px;
