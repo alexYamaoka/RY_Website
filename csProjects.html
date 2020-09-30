@@ -38,175 +38,235 @@
 
   <body>
 
-    <div class="appName">
-      <h1>EndFrame Tic Tac Toe Client/Server Desktop Application</h1>
-      <img src="serverDisplay.gif" alt="Server side display" id="ttt">
-      <img src="pvp.gif" alt="Play against Player" id="ttt">
-      <img src="AI.gif" alt="Play against Computer" id="ttt">
-      <img src="spectate.gif" alt="Spectate other games" id="ttt">
-      <img src="mainMenu.png" alt="Main menu screen" id="ttt">
-      <img src="loginAndRegistration.gif" alt="Login and Registration" id="ttt">
-      <div class="description">
-        <p>
-          Semester long group project (team of 4) using Java and JavaFX (January 2020 - Present). <br />
-          Presented deliverables at the end of each sprint using agile approach.
-        </p>
-        <br />
-      </div>
-      <div class="features">
-        <h4>Implements</h4>
-        <ul>
-          <li>client/server architecture</li>
-          <li>microservice architecture for the different servers hosting the program</li>
-          <li>sockets and network programming</li>
-          <li>multithreading</li>
-          <li>minimax algorithm to find the next optimal move for playing against the computer; worst case scenario is a tie</li>
-          <li>MySQL and JDBC</li>
-        </ul>
-        <br />
-        <h4>Features</h4>
-        <ul>
-          <li>server side UI displays: all accounts, online players, active games, and all games</li>
-          <li>register new accouts</li>
-          <li>login authentication</li>
-          <li>vs computer</li>
-          <li>vs Player</li>
-          <li>edit account informatio</li>
-          <li>spectating other player's games</li>
-          <li>history of all games played</li>
-        </ul>
-
-        <br />
-        <a href="https://github.com/alexYamaoka/ttt">https://github.com/alexYamaoka/ttt</a>
-      </div>
-    </div>
-    <hr>
-
-
-    <div class="appName">
-      <h1>Memories Android App</h1>
-      <img src="viewMemory.gif" alt="memories app main screen" id="screenShot">
-      <div class="description">
-        <br />
-        <p>
-          Memories is an Android App to store and organize your collection of photos into separate events or "memories".
-          The primary goal of this app is to provide users an easy and convenient way to look back at the special moments they've captured with their phone.
-        </p>
-        <br />
-      </div>
-      <div class="features">
-        <h4>Features</h4>
-        <ul>
-          <li>Create new memories with title, location, and date</li>
-          <li>Create new posts with date, location, and description</li>
-          <li>Add photos from camera or album</li>
-          <li>Save images to phone under the file name "Memories"</li>
-          <li>Edit memory or post description</li>
-          <li>Delete post or memories</li>
-          <li>View all photos</li>
-          <li>Pinch to zoom view of post image</li>
-        </ul>
-        <p>
-          <br /><br />
-          <a href="https://github.com/alexYamaoka/Photo_Memories">https://github.com/alexYamaoka/Photo_Memories</a>
-          <br /><br />
-          Deployed on Google Play App Store:
-          <a href="https://play.google.com/store/apps/details?id=com.RY_Co.photo_memories">Memories by RY Co.</a>
-        </p>
-      </div>
-    </div>
-    <hr>
-
-
-    <div class="appName">
-      <h1>Android News App</h1>
-      <img src="home_screen_with_save.gif" alt="news app main screen" id="screenShot">
-      <div class="description">
-        <br />
-        <p>
-          This android app allows users to get the most recent news and articles with the ability to save them to read at a later time.
-          Users are able to search and browse from over 30,000 news sources with the use of an api from NewsAPI.org.
-        </p>
-        <br />
-      </div>
-      <div class="features">
-        <h4>Features</h4>
-        <ul>
-          <li>Scroll and view top trending news</li>
-          <li>View articles in more detail from the hosted site</li>
-          <li>Save an article</li>
-          <li>View all saved articles</li>
-        </ul>
-        <br />
-        <a href="https://github.com/alexYamaoka/News_App">https://github.com/alexYamaoka/News_App</a>
-      </div>
-    </div>
-    <hr>
-
-
-
-    <div class="appName">
-      <h1>Serendipity Book Sellers</h1>
+    <div id="tableOfContents">
+      <h2>Table Of Contents</h2>
       <br />
-      <h2>Bookstore Management System</h2>
-      <img src="inventory.gif" alt="Inventory Display" id="gif_image">
-      <img src="bookStore_checkout.gif" alt="Cashier Checkout Display" id="gif_image">
-      <div class="description">
-        <p>
-          Semester long project written in C++ implementing concepts and materials learned from CS 1C at Saddleback College.
-          Periodically changed object designs, data structures, search and sorting methods as new materials were learned throughout the course.
-        </p>
-        <br />
-      </div>
-      <div class="features">
+      <ul>
+        <li> <a href="#LCA">Love Calculator spring MVC Web Application</a></li>
+        <li> <a href="#ttt">EndFrame Tic Tac Toe</a></li>
+        <li> <a href="#memories">Memories</a></li>
+        <li> <a href="#newsApp">News App</a></li>
+        <li> <a href="#serendipityBookSellers">Serendipity Book Sellers</a></li>
+        <li> <a href="#earth3D">Earth 3D</a></li>
+        <li> <a href="#solarSystem3D">Solar System 3D</a></li>
+      </ul>
+    </div>
+
+    <div class="appName" id="LCA">
+    <h1>Love Calculator Spring MVC Web Application </h1><br /><br />
+
+    <h3>Login, Calculate, and Send to Email</h3><br />
+    <img src="cs_images/calculateAndSend.gif" alt="Calculate and Send Result to Email" id="LCA"> <br /><br />
+
+    <h3>Email Inbox</h3><br />
+    <img src="cs_images/result.png" width="640" alt="Results sent to Email" id="LCA"><br /><br />
+
+    <h3>Register New User</h3><br />
+    <img src="cs_images/register.gif" alt="Register User" id="LCA"><br /><br />
+
+    <h3>Admin View All</h3><br />
+    <img src="cs_images/viewAll.gif" alt="View All Users" id="LCA"> <br /><br />
+
+    <h3>Admin Delete User</h3><br />
+    <img src="cs_images/deleteUser.gif" alt="Delete User" id="LCA"><br /><br />
+
+    <h3>Billing</h3><br />
+    <img src="cs_images/payment.gif" alt="Billing Page" id="LCA"><br /><br />
+    <div class="description">
+      <p>
+        Spring MVC web application designed to calculate matching of FRIEND, LOVE, AFFECTION, MARRIAGE, or ENEMY
+        between 2 names and send the results to user's email.
+      </p>
+      <br />
+    </div>
+    <div class="features">
+
         <h4>Features</h4>
         <ul>
-          <li>Cashier Module: Purchase books and display total price to user</li>
-          <li>Reports Module: Calculates and reports wholesale value, retail value of the current inventory.</li>
-          <li>Invenroty Module: Provides interface to search, add, edit, and delete a book's information in  inventory</li>
+          <li>Spring MVC</li>
+          <li>Tomcat Server</li>
+          <li>Java</li>
+          <li>JDBC</li>
+          <li>MySQL</li>
+          <li>JSP</li>
+          <li>Maven</li>
+          <li>Data binding</li>
+          <li>Dispatcher servlet</li>
+          <li>Custom formatter, converter, property editors</li>
+          <li>Sending results to email</li>
+          <li>Reading data from properties file</li>
+          <li>Cookies and Sessions</li>
         </ul>
+
         <br />
-        <a href="https://github.com/alexYamaoka/Book_Store_Management_System">https://github.com/alexYamaoka/Book_Store_Management_System</a>
-      </div>
+        <a href="https://github.com/alexYamaoka/springMVC_love_calculator">View Source Code</a>
     </div>
-    <hr>
+  </div>
 
 
 
-
-
-
-
-
-    <div class="appName">
-      <h1>Earth Simulation</h1>
-      <img src="earth.gif" alt="earth simulation demo" id="gif_image" >
-      <div class="description">
-        <p>
-          Simple simulation of the earth created to get practice with JavaFX 3D Objects. Not to scale.
-        </p>
-        <br />
-        <a href="https://github.com/alexYamaoka/Earth_Simulation">https://github.com/alexYamaoka/Earth_Simulation</a>
-      </div>
+    <div class="appName" id="ttt">
+    <h1>EndFrame Tic Tac Toe </h1><br />
+    <h2>Client/Server Desktop Application</h2>
+    <img src="cs_images/serverDisplay.gif" alt="Server side display" id="ttt"> <br />
+    <img src="cs_images/pvp.gif" alt="Play against Player" id="ttt"><br />
+    <img src="cs_images/AI.gif" alt="Play against Computer" id="ttt"><br />
+    <div class="description">
+      <p>
+        Semester long group project (team of 4) using Java and JavaFX. <br />
+        Presented deliverables at the end of each sprint using agile approach.
+      </p>
+      <br />
     </div>
-    <hr>
+    <div class="features">
+    <h4>Implements</h4>
+    <ul>
+      <li>client/server architecture</li>
+      <li>microservice architecture for the different servers hosting the program</li>
+      <li>sockets and network programming</li>
+      <li>multithreading</li>
+      <li>minimax algorithm to find the next optimal move for playing against the computer; worst case scenario is a tie</li>
+      <li>MySQL and JDBC</li>
+    </ul>
+    <br />
 
-
-
-
-
-
-    <div class="appName">
-      <h1>Solar System Simulation</h1>
-      <img src="solar_system.gif" alt="solar system demo" id="gif_image" >
-      <div class="description">
-        <p>
-          Solar System created using JavaFX 3D Objects. Not to scale.
-        </p>
-        <br />
-        <a href="https://github.com/alexYamaoka/Solar_System_Simulation">https://github.com/alexYamaoka/Solar_System_Simulation</a>
-      </div>
+    <h4>Features</h4>
+    <ul>
+      <li>server side UI displays: all accounts, online players, active games, and all games</li>
+      <li>register new accouts</li>
+      <li>login authentication</li>
+      <li>vs computer</li>
+      <li>vs Player</li>
+      <li>edit account informatio</li>
+      <li>spectating other player's games</li>
+      <li>history of all games played</li>
+    </ul>
+    <br />
+    <a href="https://github.com/alexYamaoka/ttt">View Source Code</a>
     </div>
+  </div>
+
+  <div class="appName" id="memories">
+    <h1>Memories Android App</h1>
+    <img src="cs_images/viewMemory.gif" alt="memories app main screen" id="screenShot">
+    <div class="description">
+      <br />
+      <p>
+        Memories is an Android App to store and organize your collection of photos into separate events or "memories".<br />
+        The primary goal of this app is to provide users an easy and convenient way to look back at the special moments they've captured with their phone.
+      </p>
+      <br />
+    </div>
+    <div class="features">
+      <h4>Features</h4>
+      <ul>
+        <li>Create new memories with title, location, and date</li>
+        <li>Create new posts with date, location, and description</li>
+        <li>Add photos from camera or album</li>
+        <li>Save images to phone under the file name "Memories"</li>
+        <li>Edit memory or post description</li>
+        <li>Delete post or memories</li>
+        <li>View all photos</li>
+        <li>Pinch to zoom view of post image</li>
+      </ul>
+      <p>
+        <br /><br />
+        <a href="https://github.com/alexYamaoka/Photo_Memories">View Source Code</a>
+        <br /><br />
+        Deployed on Google Play App Store:
+        <a href="https://play.google.com/store/apps/details?id=com.RY_Co.photo_memories">Memories by RY Co.</a>
+      </p>
+    </div>
+</div>
+
+<div class="appName" id="newsApp">
+  <h1>Android News App</h1>
+  <img src="cs_images/home_screen_with_save.gif" alt="news app main screen" id="screenShot">
+  <div class="description">
+    <br />
+    <p>
+      This android app allows users to get the most recent news and articles with the ability to save them to read at a later time. <br />
+      Users are able to search and browse from over 30,000 news sources with the use of an api from NewsAPI.org.
+    </p>
+    <br />
+  </div>
+  <div class="features">
+    <h4>Features</h4>
+    <ul>
+      <li>Scroll and view top trending news</li>
+      <li>View articles in more detail from the hosted site</li>
+      <li>Save an article</li>
+      <li>View all saved articles</li>
+    </ul>
+    <br />
+    <a href="https://github.com/alexYamaoka/News_App">View Source Code</a>
+  </div>
+</div>
+
+
+
+<div class="appName" id="serendipityBookSellers">
+  <h1>Serendipity Book Sellers</h1>
+  <br />
+  <h2>Bookstore Management System</h2>
+  <img src="cs_images/inventory.gif" alt="Inventory Display" id="gif_image">
+  <img src="cs_images/bookStore_checkout.gif" alt="Cashier Checkout Display" id="gif_image">
+  <div class="description">
+    <p>
+      Semester long project written in C++ implementing concepts and materials learned from CS 1C at Saddleback College.<br/>
+      Periodically changed object designs, data structures, search and sorting methods as new materials were learned throughout the course.
+    </p>
+    <br />
+  </div>
+  <div class="features">
+    <h4>Features</h4>
+    <ul>
+      <li>Cashier Module: Purchase books and display total price to user</li>
+      <li>Reports Module: Calculates and reports wholesale value, retail value of the current inventory.</li>
+      <li>Invenroty Module: Provides interface to search, add, edit, and delete a book's information in  inventory</li>
+    </ul>
+    <br />
+    <a href="https://github.com/alexYamaoka/Book_Store_Management_System">View Source Code</a>
+  </div>
+</div>
+
+
+
+
+<div class="appName" id="earth3D">
+  <h1>Earth Simulation</h1>
+  <img src="cs_images/earth.gif" alt="earth simulation demo" id="gif_image" >
+  <div class="description">
+    <p>
+      Simple simulation of the earth created to get practice with JavaFX 3D Objects. Not to scale.
+    </p>
+    <br />
+    <a href="https://github.com/alexYamaoka/Earth_Simulation">View Source Code</a>
+  </div>
+</div>
+
+
+
+
+<div class="appName" id="solarSystem3D">
+  <h1>Solar System Simulation</h1>
+  <img src="cs_images/solar_system.gif" alt="solar system demo" id="gif_image" >
+  <div class="description">
+    <p>
+      Solar System created using JavaFX 3D Objects. Not to scale.
+    </p>
+    <br />
+    <a href="https://github.com/alexYamaoka/Solar_System_Simulation">View Source Code</a>
+</div>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -245,7 +305,7 @@
         </div>
         <ul>
           <li> <a href="index.html">Home</a></li>
-          <li> <a href="about.html">About</a></li>
+          <li > <a href="about.html">About</a></li>
           <li class="active"> <a href="csProjects.html">CS Projects</a></li>
           <li> <a href="gallery.html">RY Gallery</a></li>
           <li> <a href="contact.html">Contact</a></li>
